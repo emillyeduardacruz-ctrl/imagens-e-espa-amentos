@@ -1,0 +1,86 @@
+/* Reset simples e fontes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f6f8;
+  color: #333;
+  padding: 20px;
+}
+
+/* Container do Post */
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  padding: 30px;
+}
+
+.post-header {
+  margin-bottom: 20px;
+}
+
+.post-header h1 {
+  font-size: 1.8rem;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.post-meta {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* 🖼️ Estilização proporcional da imagem */
+.post-media {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.post-image {
+  width: 100%;          /* Ocupa a largura total do container */
+  max-width: 100%;      /* Evita transbordamento */
+  height: auto;         /* Mantém a proporção original de aspecto */
+  display: block;       /* Remove lacunas na parte inferior */
+  border-radius: 8px;   /* Cantos arredondados para acabamento */
+  object-fit: cover;    /* Garante boa exibição dos pixels */
+}
+
+/* Conteúdo */
+.post-content p {
+  margin-bottom: 16px;
+  font-size: 1.05rem;
+  color: #444;
+}
+
+code {
+  background-color: #eee;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+/* Botão de curtir */
+.btn-primary {
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease;
+  margin-top: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
