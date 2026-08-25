@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Post no Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <article class="post">
+      <header class="post-header">
+        <h1>Aprendendo a Criar Páginas Web Acessíveis</h1>
+        <p class="post-meta">Publicado por Dev • 25 de Agosto de 2026</p>
+      </header>
+
+      <!-- Imagem do post ajustada e com atributo alt descritivo -->
+      <div class="post-media">
+        <img 
+          src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80" 
+          alt="Pessoa programando em um notebook em uma mesa de trabalho organizada com iluminação aconchegante" 
+          id="imagem-post"
+          class="post-image"
+        >
+      </div>
+
+      <div class="post-content">
+        <p>
+          Adicionar imagens aos seus artigos melhora muito a experiência visual do leitor.
+          Contudo, a acessibilidade é fundamental: o uso do atributo <code>alt</code> 
+          garante que leitores de tela interpretem o contexto da imagem para pessoas com deficiência visual.
+        </p>
+        <p>
+          Além disso, o ajuste correto via CSS impede que a imagem fique desproporcional ou atrapalhe a leitura do texto.
+        </p>
+      </div>
+
+      <!-- Exemplo simples de interação via JS -->
+      <button id="btn-curtir" class="btn-primary">❤️ Curtir Post (<span id="contador">0</span>)</button>
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
